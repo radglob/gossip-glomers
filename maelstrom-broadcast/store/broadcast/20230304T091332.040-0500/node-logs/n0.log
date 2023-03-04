@@ -1,0 +1,42 @@
+2023/03/04 09:13:33 Received {c4 n0 {"type":"init","node_id":"n0","node_ids":["n0","n1","n2","n3","n4"],"msg_id":1}}
+2023/03/04 09:13:33 Node n0 initialized
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"c4","body":{"in_reply_to":1,"type":"init_ok"}}
+2023/03/04 09:13:33 Received {c5 n0 {"type":"topology","topology":{"n0":["n3","n1"],"n1":["n4","n2","n0"],"n2":["n1"],"n3":["n0","n4"],"n4":["n1","n3"]},"msg_id":1}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"c5","body":{"in_reply_to":1,"type":"topology_ok"}}
+2023/03/04 09:13:33 Received {c10 n0 {"type":"read","msg_id":1}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"c10","body":{"in_reply_to":1,"messages":[],"type":"read_ok"}}
+2023/03/04 09:13:33 Received {n1 n0 {"msg_id":3,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"msg_id":1,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n1","body":{"msg_id":2,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n1","body":{"in_reply_to":3,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Received {n3 n0 {"msg_id":1,"type":"broadcast"}}
+2023/03/04 09:13:33 Received {n1 n0 {"msg_id":6,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"msg_id":3,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n1","body":{"msg_id":4,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"in_reply_to":1,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"msg_id":5,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n1","body":{"msg_id":6,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n1","body":{"in_reply_to":6,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Received {n3 n0 {"msg_id":3,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"msg_id":7,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n1","body":{"msg_id":8,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"in_reply_to":3,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Received {n1 n0 {"msg_id":9,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"msg_id":9,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n1","body":{"msg_id":10,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n1","body":{"in_reply_to":9,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Received {n3 n0 {"in_reply_to":1,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Received {n3 n0 {"msg_id":5,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"in_reply_to":0,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"msg_id":11,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n1","body":{"msg_id":12,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"in_reply_to":5,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Received {n3 n0 {"msg_id":7,"type":"broadcast"}}
+2023/03/04 09:13:33 Received {n3 n0 {"in_reply_to":3,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"msg_id":13,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n1","body":{"msg_id":14,"type":"broadcast"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"in_reply_to":0,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Sent {"src":"n0","dest":"n3","body":{"in_reply_to":7,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 Received {n3 n0 {"msg_id":9,"type":"broadcast"}}
+2023/03/04 09:13:33 Received {n3 n0 {"in_reply_to":0,"type":"broadcast_ok"}}
+2023/03/04 09:13:33 No handler for {"id":99,"src":"n3","dest":"n0","body":{"in_reply_to":0,"type":"broadcast_ok"}}

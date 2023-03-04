@@ -1,0 +1,23 @@
+2023/03/03 17:16:22 Received {c0 n0 {"type":"init","node_id":"n0","node_ids":["n0"],"msg_id":1}}
+2023/03/03 17:16:22 Node n0 initialized
+2023/03/03 17:16:22 Sent {"src":"n0","dest":"c0","body":{"in_reply_to":1,"type":"init_ok"}}
+2023/03/03 17:16:22 Received {c1 n0 {"type":"topology","topology":{"n0":[]},"msg_id":1}}
+2023/03/03 17:16:22 Sent {"src":"n0","dest":"c1","body":{"in_reply_to":1,"msg_id":1,"type":"topology_ok"}}
+2023/03/03 17:16:22 Received {c2 n0 {"type":"read","msg_id":1}}
+2023/03/03 17:16:22 Sent {"src":"n0","dest":"c2","body":{"in_reply_to":1,"messages":[],"msg_id":1,"type":"read_ok"}}
+2023/03/03 17:16:22 Received {c2 n0 {"type":"read","msg_id":2}}
+2023/03/03 17:16:22 Sent {"src":"n0","dest":"c2","body":{"in_reply_to":2,"messages":[],"msg_id":2,"type":"read_ok"}}
+2023/03/03 17:16:22 Received {c2 n0 {"type":"read","msg_id":3}}
+2023/03/03 17:16:22 Sent {"src":"n0","dest":"c2","body":{"in_reply_to":3,"messages":[],"msg_id":3,"type":"read_ok"}}
+2023/03/03 17:16:22 Received {c2 n0 {"type":"broadcast","message":0,"msg_id":4}}
+panic: interface conversion: interface {} is float64, not int
+
+goroutine 23 [running]:
+main.main.func1({{0xc000136348, 0x2}, {0xc00013634a, 0x2}, {0xc00015c060, 0x2b, 0x30}})
+	/home/jln/Projects/gossip-glomers/maelstrom-broadcast/main.go:21 +0x2fe
+github.com/jepsen-io/maelstrom/demo/go.(*Node).handleMessage(0x0?, 0x0?, {{0xc000136348, 0x2}, {0xc00013634a, 0x2}, {0xc00015c060, 0x2b, 0x30}})
+	/home/jln/.go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230228144258-93f15782f204/node.go:151 +0x96
+github.com/jepsen-io/maelstrom/demo/go.(*Node).Run.func2()
+	/home/jln/.go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230228144258-93f15782f204/node.go:129 +0x88
+created by github.com/jepsen-io/maelstrom/demo/go.(*Node).Run
+	/home/jln/.go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230228144258-93f15782f204/node.go:127 +0x41b

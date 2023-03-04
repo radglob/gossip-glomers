@@ -1,0 +1,402 @@
+{:index 0, :time 7119745, :type :invoke, :process 0, :f :broadcast, :value 0}
+{:index 1, :time 9830694, :type :ok, :process 0, :f :broadcast, :value 0}
+{:index 2, :time 101548721, :type :invoke, :process 0, :f :read, :value nil}
+{:index 3, :time 102673133, :type :ok, :process 0, :f :read, :value [0]}
+{:index 4, :time 152796095, :type :invoke, :process 0, :f :broadcast, :value 1}
+{:index 5, :time 153724150, :type :ok, :process 0, :f :broadcast, :value 1}
+{:index 6, :time 212494905, :type :invoke, :process 0, :f :read, :value nil}
+{:index 7, :time 213587197, :type :ok, :process 0, :f :read, :value [0 1]}
+{:index 8, :time 352531988, :type :invoke, :process 0, :f :broadcast, :value 2}
+{:index 9, :time 354931165, :type :ok, :process 0, :f :broadcast, :value 2}
+{:index 10, :time 465027249, :type :invoke, :process 0, :f :broadcast, :value 3}
+{:index 11, :time 466811876, :type :ok, :process 0, :f :broadcast, :value 3}
+{:index 12, :time 522660315, :type :invoke, :process 0, :f :read, :value nil}
+{:index 13, :time 524111008, :type :ok, :process 0, :f :read, :value [0 1 2 3]}
+{:index 14, :time 617770756, :type :invoke, :process 0, :f :broadcast, :value 4}
+{:index 15, :time 619007829, :type :ok, :process 0, :f :broadcast, :value 4}
+{:index 16, :time 779568283, :type :invoke, :process 0, :f :read, :value nil}
+{:index 17, :time 781314679, :type :ok, :process 0, :f :read, :value [0 1 2 3 4]}
+{:index 18, :time 919824498, :type :invoke, :process 0, :f :broadcast, :value 5}
+{:index 19, :time 921515941, :type :ok, :process 0, :f :broadcast, :value 5}
+{:index 20, :time 992890475, :type :invoke, :process 0, :f :read, :value nil}
+{:index 21, :time 994042669, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5]}
+{:index 22, :time 1158375739, :type :invoke, :process 0, :f :broadcast, :value 6}
+{:index 23, :time 1160039951, :type :ok, :process 0, :f :broadcast, :value 6}
+{:index 24, :time 1222782253, :type :invoke, :process 0, :f :broadcast, :value 7}
+{:index 25, :time 1224486429, :type :ok, :process 0, :f :broadcast, :value 7}
+{:index 26, :time 1331048745, :type :invoke, :process 0, :f :broadcast, :value 8}
+{:index 27, :time 1332704582, :type :ok, :process 0, :f :broadcast, :value 8}
+{:index 28, :time 1506993809, :type :invoke, :process 0, :f :broadcast, :value 9}
+{:index 29, :time 1508764170, :type :ok, :process 0, :f :broadcast, :value 9}
+{:index 30, :time 1695811174, :type :invoke, :process 0, :f :broadcast, :value 10}
+{:index 31, :time 1697320938, :type :ok, :process 0, :f :broadcast, :value 10}
+{:index 32, :time 1867965600, :type :invoke, :process 0, :f :read, :value nil}
+{:index 33, :time 1869635893, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10]}
+{:index 34, :time 2029312925, :type :invoke, :process 0, :f :read, :value nil}
+{:index 35, :time 2030924659, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10]}
+{:index 36, :time 2107127522, :type :invoke, :process 0, :f :read, :value nil}
+{:index 37, :time 2108621686, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10]}
+{:index 38, :time 2125761358, :type :invoke, :process 0, :f :read, :value nil}
+{:index 39, :time 2126583906, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10]}
+{:index 40, :time 2135265130, :type :invoke, :process 0, :f :read, :value nil}
+{:index 41, :time 2135979917, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10]}
+{:index 42, :time 2141831940, :type :invoke, :process 0, :f :read, :value nil}
+{:index 43, :time 2142553059, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10]}
+{:index 44, :time 2151512834, :type :invoke, :process 0, :f :read, :value nil}
+{:index 45, :time 2152175673, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10]}
+{:index 46, :time 2314897741, :type :invoke, :process 0, :f :broadcast, :value 11}
+{:index 47, :time 2316475892, :type :ok, :process 0, :f :broadcast, :value 11}
+{:index 48, :time 2362257955, :type :invoke, :process 0, :f :read, :value nil}
+{:index 49, :time 2363979996, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11]}
+{:index 50, :time 2461945615, :type :invoke, :process 0, :f :broadcast, :value 12}
+{:index 51, :time 2463234625, :type :ok, :process 0, :f :broadcast, :value 12}
+{:index 52, :time 2644118976, :type :invoke, :process 0, :f :read, :value nil}
+{:index 53, :time 2645705593, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12]}
+{:index 54, :time 2712866617, :type :invoke, :process 0, :f :read, :value nil}
+{:index 55, :time 2714533555, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12]}
+{:index 56, :time 2837662360, :type :invoke, :process 0, :f :read, :value nil}
+{:index 57, :time 2839554618, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12]}
+{:index 58, :time 3009895923, :type :invoke, :process 0, :f :broadcast, :value 13}
+{:index 59, :time 3011463164, :type :ok, :process 0, :f :broadcast, :value 13}
+{:index 60, :time 3069219850, :type :invoke, :process 0, :f :broadcast, :value 14}
+{:index 61, :time 3070676665, :type :ok, :process 0, :f :broadcast, :value 14}
+{:index 62, :time 3221711896, :type :invoke, :process 0, :f :read, :value nil}
+{:index 63, :time 3223629192, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14]}
+{:index 64, :time 3273814279, :type :invoke, :process 0, :f :broadcast, :value 15}
+{:index 65, :time 3274929314, :type :ok, :process 0, :f :broadcast, :value 15}
+{:index 66, :time 3312499402, :type :invoke, :process 0, :f :read, :value nil}
+{:index 67, :time 3313695028, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15]}
+{:index 68, :time 3464006366, :type :invoke, :process 0, :f :broadcast, :value 16}
+{:index 69, :time 3465042614, :type :ok, :process 0, :f :broadcast, :value 16}
+{:index 70, :time 3486181464, :type :invoke, :process 0, :f :broadcast, :value 17}
+{:index 71, :time 3487011817, :type :ok, :process 0, :f :broadcast, :value 17}
+{:index 72, :time 3570853594, :type :invoke, :process 0, :f :broadcast, :value 18}
+{:index 73, :time 3572488571, :type :ok, :process 0, :f :broadcast, :value 18}
+{:index 74, :time 3761220066, :type :invoke, :process 0, :f :broadcast, :value 19}
+{:index 75, :time 3762693051, :type :ok, :process 0, :f :broadcast, :value 19}
+{:index 76, :time 3775590971, :type :invoke, :process 0, :f :read, :value nil}
+{:index 77, :time 3776555554, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19]}
+{:index 78, :time 3852484845, :type :invoke, :process 0, :f :read, :value nil}
+{:index 79, :time 3853622342, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19]}
+{:index 80, :time 3900146754, :type :invoke, :process 0, :f :broadcast, :value 20}
+{:index 81, :time 3901162083, :type :ok, :process 0, :f :broadcast, :value 20}
+{:index 82, :time 4034532531, :type :invoke, :process 0, :f :read, :value nil}
+{:index 83, :time 4036392900, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20]}
+{:index 84, :time 4042533954, :type :invoke, :process 0, :f :broadcast, :value 21}
+{:index 85, :time 4050323550, :type :ok, :process 0, :f :broadcast, :value 21}
+{:index 86, :time 4217870450, :type :invoke, :process 0, :f :broadcast, :value 22}
+{:index 87, :time 4218767547, :type :ok, :process 0, :f :broadcast, :value 22}
+{:index 88, :time 4335787790, :type :invoke, :process 0, :f :broadcast, :value 23}
+{:index 89, :time 4337261055, :type :ok, :process 0, :f :broadcast, :value 23}
+{:index 90, :time 4531666750, :type :invoke, :process 0, :f :broadcast, :value 24}
+{:index 91, :time 4533170502, :type :ok, :process 0, :f :broadcast, :value 24}
+{:index 92, :time 4724138960, :type :invoke, :process 0, :f :read, :value nil}
+{:index 93, :time 4725688438, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24]}
+{:index 94, :time 4743277029, :type :invoke, :process 0, :f :read, :value nil}
+{:index 95, :time 4744352551, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24]}
+{:index 96, :time 4790126539, :type :invoke, :process 0, :f :broadcast, :value 25}
+{:index 97, :time 4791016684, :type :ok, :process 0, :f :broadcast, :value 25}
+{:index 98, :time 4905026777, :type :invoke, :process 0, :f :read, :value nil}
+{:index 99, :time 4906463223, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25]}
+{:index 100, :time 5022478516, :type :invoke, :process 0, :f :broadcast, :value 26}
+{:index 101, :time 5023695562, :type :ok, :process 0, :f :broadcast, :value 26}
+{:index 102, :time 5040721561, :type :invoke, :process 0, :f :read, :value nil}
+{:index 103, :time 5041527177, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26]}
+{:index 104, :time 5186507146, :type :invoke, :process 0, :f :broadcast, :value 27}
+{:index 105, :time 5187323753, :type :ok, :process 0, :f :broadcast, :value 27}
+{:index 106, :time 5252807099, :type :invoke, :process 0, :f :read, :value nil}
+{:index 107, :time 5253859838, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27]}
+{:index 108, :time 5261019146, :type :invoke, :process 0, :f :broadcast, :value 28}
+{:index 109, :time 5261875747, :type :ok, :process 0, :f :broadcast, :value 28}
+{:index 110, :time 5362524044, :type :invoke, :process 0, :f :read, :value nil}
+{:index 111, :time 5364140757, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28]}
+{:index 112, :time 5529675936, :type :invoke, :process 0, :f :broadcast, :value 29}
+{:index 113, :time 5531169669, :type :ok, :process 0, :f :broadcast, :value 29}
+{:index 114, :time 5703905882, :type :invoke, :process 0, :f :read, :value nil}
+{:index 115, :time 5705594570, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29]}
+{:index 116, :time 5723517797, :type :invoke, :process 0, :f :read, :value nil}
+{:index 117, :time 5724387573, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29]}
+{:index 118, :time 5745863184, :type :invoke, :process 0, :f :broadcast, :value 30}
+{:index 119, :time 5746862382, :type :ok, :process 0, :f :broadcast, :value 30}
+{:index 120, :time 5748347339, :type :invoke, :process 0, :f :broadcast, :value 31}
+{:index 121, :time 5749000991, :type :ok, :process 0, :f :broadcast, :value 31}
+{:index 122, :time 5897390885, :type :invoke, :process 0, :f :broadcast, :value 32}
+{:index 123, :time 5898815610, :type :ok, :process 0, :f :broadcast, :value 32}
+{:index 124, :time 6021645978, :type :invoke, :process 0, :f :read, :value nil}
+{:index 125, :time 6023290843, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]}
+{:index 126, :time 6122242567, :type :invoke, :process 0, :f :read, :value nil}
+{:index 127, :time 6123519835, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]}
+{:index 128, :time 6212012179, :type :invoke, :process 0, :f :read, :value nil}
+{:index 129, :time 6213415493, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]}
+{:index 130, :time 6410830536, :type :invoke, :process 0, :f :read, :value nil}
+{:index 131, :time 6412414418, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]}
+{:index 132, :time 6550718222, :type :invoke, :process 0, :f :read, :value nil}
+{:index 133, :time 6552211474, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]}
+{:index 134, :time 6627382957, :type :invoke, :process 0, :f :read, :value nil}
+{:index 135, :time 6628252483, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]}
+{:index 136, :time 6810521984, :type :invoke, :process 0, :f :read, :value nil}
+{:index 137, :time 6812147634, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]}
+{:index 138, :time 6962369134, :type :invoke, :process 0, :f :read, :value nil}
+{:index 139, :time 6963753523, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]}
+{:index 140, :time 6991624834, :type :invoke, :process 0, :f :read, :value nil}
+{:index 141, :time 6992426002, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]}
+{:index 142, :time 7183831587, :type :invoke, :process 0, :f :broadcast, :value 33}
+{:index 143, :time 7185461445, :type :ok, :process 0, :f :broadcast, :value 33}
+{:index 144, :time 7322290502, :type :invoke, :process 0, :f :broadcast, :value 34}
+{:index 145, :time 7323669150, :type :ok, :process 0, :f :broadcast, :value 34}
+{:index 146, :time 7342736465, :type :invoke, :process 0, :f :read, :value nil}
+{:index 147, :time 7343670191, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34]}
+{:index 148, :time 7421410279, :type :invoke, :process 0, :f :broadcast, :value 35}
+{:index 149, :time 7422194476, :type :ok, :process 0, :f :broadcast, :value 35}
+{:index 150, :time 7542129257, :type :invoke, :process 0, :f :read, :value nil}
+{:index 151, :time 7542969177, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35]}
+{:index 152, :time 7740876392, :type :invoke, :process 0, :f :read, :value nil}
+{:index 153, :time 7742239962, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35]}
+{:index 154, :time 7754751819, :type :invoke, :process 0, :f :read, :value nil}
+{:index 155, :time 7755596649, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35]}
+{:index 156, :time 7896914839, :type :invoke, :process 0, :f :read, :value nil}
+{:index 157, :time 7898408652, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35]}
+{:index 158, :time 7995914693, :type :invoke, :process 0, :f :read, :value nil}
+{:index 159, :time 7997213221, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35]}
+{:index 160, :time 8031901569, :type :invoke, :process 0, :f :read, :value nil}
+{:index 161, :time 8032797645, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35]}
+{:index 162, :time 8151800926, :type :invoke, :process 0, :f :read, :value nil}
+{:index 163, :time 8153054480, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35]}
+{:index 164, :time 8352212462, :type :invoke, :process 0, :f :read, :value nil}
+{:index 165, :time 8353801735, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35]}
+{:index 166, :time 8375201874, :type :invoke, :process 0, :f :read, :value nil}
+{:index 167, :time 8376313773, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35]}
+{:index 168, :time 8414263650, :type :invoke, :process 0, :f :broadcast, :value 36}
+{:index 169, :time 8414958870, :type :ok, :process 0, :f :broadcast, :value 36}
+{:index 170, :time 8570820668, :type :invoke, :process 0, :f :broadcast, :value 37}
+{:index 171, :time 8572050668, :type :ok, :process 0, :f :broadcast, :value 37}
+{:index 172, :time 8600293714, :type :invoke, :process 0, :f :read, :value nil}
+{:index 173, :time 8601345561, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37]}
+{:index 174, :time 8607817433, :type :invoke, :process 0, :f :broadcast, :value 38}
+{:index 175, :time 8608354408, :type :ok, :process 0, :f :broadcast, :value 38}
+{:index 176, :time 8620445889, :type :invoke, :process 0, :f :broadcast, :value 39}
+{:index 177, :time 8621084694, :type :ok, :process 0, :f :broadcast, :value 39}
+{:index 178, :time 8769783887, :type :invoke, :process 0, :f :broadcast, :value 40}
+{:index 179, :time 8771154841, :type :ok, :process 0, :f :broadcast, :value 40}
+{:index 180, :time 8927308454, :type :invoke, :process 0, :f :read, :value nil}
+{:index 181, :time 8929191215, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40]}
+{:index 182, :time 8971415125, :type :invoke, :process 0, :f :broadcast, :value 41}
+{:index 183, :time 8972239958, :type :ok, :process 0, :f :broadcast, :value 41}
+{:index 184, :time 9054428514, :type :invoke, :process 0, :f :broadcast, :value 42}
+{:index 185, :time 9055579116, :type :ok, :process 0, :f :broadcast, :value 42}
+{:index 186, :time 9111442081, :type :invoke, :process 0, :f :read, :value nil}
+{:index 187, :time 9112402698, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42]}
+{:index 188, :time 9267682257, :type :invoke, :process 0, :f :broadcast, :value 43}
+{:index 189, :time 9269182242, :type :ok, :process 0, :f :broadcast, :value 43}
+{:index 190, :time 9320932466, :type :invoke, :process 0, :f :read, :value nil}
+{:index 191, :time 9321817812, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43]}
+{:index 192, :time 9426555015, :type :invoke, :process 0, :f :read, :value nil}
+{:index 193, :time 9427830110, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43]}
+{:index 194, :time 9429176998, :type :invoke, :process 0, :f :broadcast, :value 44}
+{:index 195, :time 9429890883, :type :ok, :process 0, :f :broadcast, :value 44}
+{:index 196, :time 9538670786, :type :invoke, :process 0, :f :broadcast, :value 45}
+{:index 197, :time 9539316384, :type :ok, :process 0, :f :broadcast, :value 45}
+{:index 198, :time 9698490755, :type :invoke, :process 0, :f :read, :value nil}
+{:index 199, :time 9699888980, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45]}
+{:index 200, :time 9876591069, :type :invoke, :process 0, :f :read, :value nil}
+{:index 201, :time 9877799148, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45]}
+{:index 202, :time 9932315846, :type :invoke, :process 0, :f :read, :value nil}
+{:index 203, :time 9933084253, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45]}
+{:index 204, :time 10068260588, :type :invoke, :process 0, :f :read, :value nil}
+{:index 205, :time 10069386644, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45]}
+{:index 206, :time 10192672644, :type :invoke, :process 0, :f :read, :value nil}
+{:index 207, :time 10193249804, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45]}
+{:index 208, :time 10287918438, :type :invoke, :process 0, :f :read, :value nil}
+{:index 209, :time 10289224269, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45]}
+{:index 210, :time 10402849223, :type :invoke, :process 0, :f :broadcast, :value 46}
+{:index 211, :time 10404004553, :type :ok, :process 0, :f :broadcast, :value 46}
+{:index 212, :time 10457148334, :type :invoke, :process 0, :f :broadcast, :value 47}
+{:index 213, :time 10458447754, :type :ok, :process 0, :f :broadcast, :value 47}
+{:index 214, :time 10536005861, :type :invoke, :process 0, :f :broadcast, :value 48}
+{:index 215, :time 10537119544, :type :ok, :process 0, :f :broadcast, :value 48}
+{:index 216, :time 10684541267, :type :invoke, :process 0, :f :read, :value nil}
+{:index 217, :time 10685878187, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48]}
+{:index 218, :time 10751641206, :type :invoke, :process 0, :f :read, :value nil}
+{:index 219, :time 10753163363, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48]}
+{:index 220, :time 10828473545, :type :invoke, :process 0, :f :broadcast, :value 49}
+{:index 221, :time 10829690171, :type :ok, :process 0, :f :broadcast, :value 49}
+{:index 222, :time 10901265519, :type :invoke, :process 0, :f :broadcast, :value 50}
+{:index 223, :time 10902137911, :type :ok, :process 0, :f :broadcast, :value 50}
+{:index 224, :time 11023864735, :type :invoke, :process 0, :f :read, :value nil}
+{:index 225, :time 11025111596, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50]}
+{:index 226, :time 11156068510, :type :invoke, :process 0, :f :read, :value nil}
+{:index 227, :time 11157412724, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50]}
+{:index 228, :time 11272899008, :type :invoke, :process 0, :f :broadcast, :value 51}
+{:index 229, :time 11274129279, :type :ok, :process 0, :f :broadcast, :value 51}
+{:index 230, :time 11344166120, :type :invoke, :process 0, :f :read, :value nil}
+{:index 231, :time 11345232184, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51]}
+{:index 232, :time 11477749606, :type :invoke, :process 0, :f :broadcast, :value 52}
+{:index 233, :time 11478866455, :type :ok, :process 0, :f :broadcast, :value 52}
+{:index 234, :time 11504585941, :type :invoke, :process 0, :f :broadcast, :value 53}
+{:index 235, :time 11505107377, :type :ok, :process 0, :f :broadcast, :value 53}
+{:index 236, :time 11644677829, :type :invoke, :process 0, :f :read, :value nil}
+{:index 237, :time 11646075072, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53]}
+{:index 238, :time 11763054408, :type :invoke, :process 0, :f :broadcast, :value 54}
+{:index 239, :time 11764207163, :type :ok, :process 0, :f :broadcast, :value 54}
+{:index 240, :time 11879990662, :type :invoke, :process 0, :f :read, :value nil}
+{:index 241, :time 11881186319, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54]}
+{:index 242, :time 12060306490, :type :invoke, :process 0, :f :broadcast, :value 55}
+{:index 243, :time 12061461701, :type :ok, :process 0, :f :broadcast, :value 55}
+{:index 244, :time 12215002828, :type :invoke, :process 0, :f :broadcast, :value 56}
+{:index 245, :time 12216246383, :type :ok, :process 0, :f :broadcast, :value 56}
+{:index 246, :time 12355122778, :type :invoke, :process 0, :f :read, :value nil}
+{:index 247, :time 12356470679, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56]}
+{:index 248, :time 12485559208, :type :invoke, :process 0, :f :broadcast, :value 57}
+{:index 249, :time 12486904504, :type :ok, :process 0, :f :broadcast, :value 57}
+{:index 250, :time 12610574512, :type :invoke, :process 0, :f :read, :value nil}
+{:index 251, :time 12611760810, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57]}
+{:index 252, :time 12782577244, :type :invoke, :process 0, :f :broadcast, :value 58}
+{:index 253, :time 12783915868, :type :ok, :process 0, :f :broadcast, :value 58}
+{:index 254, :time 12798937919, :type :invoke, :process 0, :f :read, :value nil}
+{:index 255, :time 12799672543, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58]}
+{:index 256, :time 12851794914, :type :invoke, :process 0, :f :broadcast, :value 59}
+{:index 257, :time 12853094214, :type :ok, :process 0, :f :broadcast, :value 59}
+{:index 258, :time 12956493965, :type :invoke, :process 0, :f :read, :value nil}
+{:index 259, :time 12957975275, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59]}
+{:index 260, :time 13051335993, :type :invoke, :process 0, :f :read, :value nil}
+{:index 261, :time 13052572816, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59]}
+{:index 262, :time 13245859279, :type :invoke, :process 0, :f :broadcast, :value 60}
+{:index 263, :time 13246926214, :type :ok, :process 0, :f :broadcast, :value 60}
+{:index 264, :time 13420674590, :type :invoke, :process 0, :f :broadcast, :value 61}
+{:index 265, :time 13421765710, :type :ok, :process 0, :f :broadcast, :value 61}
+{:index 266, :time 13430370391, :type :invoke, :process 0, :f :broadcast, :value 62}
+{:index 267, :time 13431384186, :type :ok, :process 0, :f :broadcast, :value 62}
+{:index 268, :time 13512022543, :type :invoke, :process 0, :f :broadcast, :value 63}
+{:index 269, :time 13513270767, :type :ok, :process 0, :f :broadcast, :value 63}
+{:index 270, :time 13617104731, :type :invoke, :process 0, :f :broadcast, :value 64}
+{:index 271, :time 13618311768, :type :ok, :process 0, :f :broadcast, :value 64}
+{:index 272, :time 13715569995, :type :invoke, :process 0, :f :broadcast, :value 65}
+{:index 273, :time 13716750663, :type :ok, :process 0, :f :broadcast, :value 65}
+{:index 274, :time 13747367598, :type :invoke, :process 0, :f :read, :value nil}
+{:index 275, :time 13748117450, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65]}
+{:index 276, :time 13771523821, :type :invoke, :process 0, :f :broadcast, :value 66}
+{:index 277, :time 13772348493, :type :ok, :process 0, :f :broadcast, :value 66}
+{:index 278, :time 13948095538, :type :invoke, :process 0, :f :read, :value nil}
+{:index 279, :time 13949455000, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66]}
+{:index 280, :time 14028203975, :type :invoke, :process 0, :f :broadcast, :value 67}
+{:index 281, :time 14029257645, :type :ok, :process 0, :f :broadcast, :value 67}
+{:index 282, :time 14037648275, :type :invoke, :process 0, :f :read, :value nil}
+{:index 283, :time 14038939410, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67]}
+{:index 284, :time 14105757401, :type :invoke, :process 0, :f :read, :value nil}
+{:index 285, :time 14107036143, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67]}
+{:index 286, :time 14297372239, :type :invoke, :process 0, :f :read, :value nil}
+{:index 287, :time 14298461706, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67]}
+{:index 288, :time 14480668760, :type :invoke, :process 0, :f :read, :value nil}
+{:index 289, :time 14481773787, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67]}
+{:index 290, :time 14600936787, :type :invoke, :process 0, :f :broadcast, :value 68}
+{:index 291, :time 14601685918, :type :ok, :process 0, :f :broadcast, :value 68}
+{:index 292, :time 14673891655, :type :invoke, :process 0, :f :read, :value nil}
+{:index 293, :time 14674693574, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68]}
+{:index 294, :time 14704674158, :type :invoke, :process 0, :f :broadcast, :value 69}
+{:index 295, :time 14705391209, :type :ok, :process 0, :f :broadcast, :value 69}
+{:index 296, :time 14820519083, :type :invoke, :process 0, :f :broadcast, :value 70}
+{:index 297, :time 14821615083, :type :ok, :process 0, :f :broadcast, :value 70}
+{:index 298, :time 14874253839, :type :invoke, :process 0, :f :read, :value nil}
+{:index 299, :time 14875584417, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70]}
+{:index 300, :time 15017738953, :type :invoke, :process 0, :f :read, :value nil}
+{:index 301, :time 15018958383, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70]}
+{:index 302, :time 15161984887, :type :invoke, :process 0, :f :broadcast, :value 71}
+{:index 303, :time 15163077440, :type :ok, :process 0, :f :broadcast, :value 71}
+{:index 304, :time 15212447334, :type :invoke, :process 0, :f :read, :value nil}
+{:index 305, :time 15213671403, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71]}
+{:index 306, :time 15341203973, :type :invoke, :process 0, :f :broadcast, :value 72}
+{:index 307, :time 15342336220, :type :ok, :process 0, :f :broadcast, :value 72}
+{:index 308, :time 15404312918, :type :invoke, :process 0, :f :broadcast, :value 73}
+{:index 309, :time 15405462589, :type :ok, :process 0, :f :broadcast, :value 73}
+{:index 310, :time 15491680820, :type :invoke, :process 0, :f :read, :value nil}
+{:index 311, :time 15492965442, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73]}
+{:index 312, :time 15572437287, :type :invoke, :process 0, :f :broadcast, :value 74}
+{:index 313, :time 15573630488, :type :ok, :process 0, :f :broadcast, :value 74}
+{:index 314, :time 15687216729, :type :invoke, :process 0, :f :read, :value nil}
+{:index 315, :time 15688470454, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74]}
+{:index 316, :time 15841296895, :type :invoke, :process 0, :f :broadcast, :value 75}
+{:index 317, :time 15841963271, :type :ok, :process 0, :f :broadcast, :value 75}
+{:index 318, :time 16010280000, :type :invoke, :process 0, :f :broadcast, :value 76}
+{:index 319, :time 16011310767, :type :ok, :process 0, :f :broadcast, :value 76}
+{:index 320, :time 16041509530, :type :invoke, :process 0, :f :read, :value nil}
+{:index 321, :time 16043148135, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76]}
+{:index 322, :time 16088155219, :type :invoke, :process 0, :f :broadcast, :value 77}
+{:index 323, :time 16089068638, :type :ok, :process 0, :f :broadcast, :value 77}
+{:index 324, :time 16120052318, :type :invoke, :process 0, :f :read, :value nil}
+{:index 325, :time 16120656478, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77]}
+{:index 326, :time 16133379771, :type :invoke, :process 0, :f :read, :value nil}
+{:index 327, :time 16133836535, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77]}
+{:index 328, :time 16291275853, :type :invoke, :process 0, :f :broadcast, :value 78}
+{:index 329, :time 16292418490, :type :ok, :process 0, :f :broadcast, :value 78}
+{:index 330, :time 16481407148, :type :invoke, :process 0, :f :broadcast, :value 79}
+{:index 331, :time 16482495192, :type :ok, :process 0, :f :broadcast, :value 79}
+{:index 332, :time 16573281676, :type :invoke, :process 0, :f :read, :value nil}
+{:index 333, :time 16574480458, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79]}
+{:index 334, :time 16678939691, :type :invoke, :process 0, :f :broadcast, :value 80}
+{:index 335, :time 16680025672, :type :ok, :process 0, :f :broadcast, :value 80}
+{:index 336, :time 16703834135, :type :invoke, :process 0, :f :broadcast, :value 81}
+{:index 337, :time 16704594797, :type :ok, :process 0, :f :broadcast, :value 81}
+{:index 338, :time 16736759857, :type :invoke, :process 0, :f :read, :value nil}
+{:index 339, :time 16738258640, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81]}
+{:index 340, :time 16902170651, :type :invoke, :process 0, :f :read, :value nil}
+{:index 341, :time 16903600165, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81]}
+{:index 342, :time 17087253144, :type :invoke, :process 0, :f :read, :value nil}
+{:index 343, :time 17088584854, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81]}
+{:index 344, :time 17134842939, :type :invoke, :process 0, :f :read, :value nil}
+{:index 345, :time 17136061668, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81]}
+{:index 346, :time 17157405441, :type :invoke, :process 0, :f :broadcast, :value 82}
+{:index 347, :time 17158153460, :type :ok, :process 0, :f :broadcast, :value 82}
+{:index 348, :time 17239775868, :type :invoke, :process 0, :f :read, :value nil}
+{:index 349, :time 17241045852, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82]}
+{:index 350, :time 17399682459, :type :invoke, :process 0, :f :read, :value nil}
+{:index 351, :time 17400993741, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82]}
+{:index 352, :time 17591274844, :type :invoke, :process 0, :f :read, :value nil}
+{:index 353, :time 17592657299, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82]}
+{:index 354, :time 17654748513, :type :invoke, :process 0, :f :broadcast, :value 83}
+{:index 355, :time 17655983332, :type :ok, :process 0, :f :broadcast, :value 83}
+{:index 356, :time 17774970662, :type :invoke, :process 0, :f :read, :value nil}
+{:index 357, :time 17776383724, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83]}
+{:index 358, :time 17904519552, :type :invoke, :process 0, :f :read, :value nil}
+{:index 359, :time 17905741507, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83]}
+{:index 360, :time 17966190771, :type :invoke, :process 0, :f :read, :value nil}
+{:index 361, :time 17967024861, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83]}
+{:index 362, :time 18134111631, :type :invoke, :process 0, :f :read, :value nil}
+{:index 363, :time 18135098977, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83]}
+{:index 364, :time 18256057273, :type :invoke, :process 0, :f :read, :value nil}
+{:index 365, :time 18257351103, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83]}
+{:index 366, :time 18353428000, :type :invoke, :process 0, :f :broadcast, :value 84}
+{:index 367, :time 18354578772, :type :ok, :process 0, :f :broadcast, :value 84}
+{:index 368, :time 18440319501, :type :invoke, :process 0, :f :broadcast, :value 85}
+{:index 369, :time 18441411433, :type :ok, :process 0, :f :broadcast, :value 85}
+{:index 370, :time 18551646506, :type :invoke, :process 0, :f :read, :value nil}
+{:index 371, :time 18552987554, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85]}
+{:index 372, :time 18669140534, :type :invoke, :process 0, :f :broadcast, :value 86}
+{:index 373, :time 18670366857, :type :ok, :process 0, :f :broadcast, :value 86}
+{:index 374, :time 18796952517, :type :invoke, :process 0, :f :broadcast, :value 87}
+{:index 375, :time 18798032006, :type :ok, :process 0, :f :broadcast, :value 87}
+{:index 376, :time 18916894664, :type :invoke, :process 0, :f :read, :value nil}
+{:index 377, :time 18918244850, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87]}
+{:index 378, :time 18958939580, :type :invoke, :process 0, :f :read, :value nil}
+{:index 379, :time 18960195458, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87]}
+{:index 380, :time 19131840411, :type :invoke, :process 0, :f :read, :value nil}
+{:index 381, :time 19133526284, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87]}
+{:index 382, :time 19177961950, :type :invoke, :process 0, :f :read, :value nil}
+{:index 383, :time 19178813212, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87]}
+{:index 384, :time 19224592031, :type :invoke, :process 0, :f :broadcast, :value 88}
+{:index 385, :time 19225276460, :type :ok, :process 0, :f :broadcast, :value 88}
+{:index 386, :time 19329115043, :type :invoke, :process 0, :f :broadcast, :value 89}
+{:index 387, :time 19330080849, :type :ok, :process 0, :f :broadcast, :value 89}
+{:index 388, :time 19448139573, :type :invoke, :process 0, :f :read, :value nil}
+{:index 389, :time 19449495308, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89]}
+{:index 390, :time 19558398792, :type :invoke, :process 0, :f :broadcast, :value 90}
+{:index 391, :time 19559025253, :type :ok, :process 0, :f :broadcast, :value 90}
+{:index 392, :time 19614098082, :type :invoke, :process 0, :f :read, :value nil}
+{:index 393, :time 19614932052, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90]}
+{:index 394, :time 19625814402, :type :invoke, :process 0, :f :read, :value nil}
+{:index 395, :time 19626685981, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90]}
+{:index 396, :time 19824211251, :type :invoke, :process 0, :f :broadcast, :value 91}
+{:index 397, :time 19824841520, :type :ok, :process 0, :f :broadcast, :value 91}
+{:index 398, :time 19978021692, :type :invoke, :process 0, :f :broadcast, :value 92}
+{:index 399, :time 19979226836, :type :ok, :process 0, :f :broadcast, :value 92}
+{:index 400, :time 29980023685, :type :invoke, :process 0, :f :read, :value nil, :final? true}
+{:index 401, :time 29981646138, :type :ok, :process 0, :f :read, :value [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92], :final? true}
