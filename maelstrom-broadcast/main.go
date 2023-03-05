@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"log"
+	"time"
 
 	maelstrom "github.com/jepsen-io/maelstrom/demo/go"
 )
@@ -52,6 +53,20 @@ func Contains[T comparable](values []T, v T) bool {
 	return false
 }
 
+func SendWithRetry(n *maelstrom.Node, dest string, body interface{}, wait time.Duration, retries int) error {
+	if retries <= 0 {
+		log.Fatal("Unable to propagate message.")
+	}
+
+	err := n.Send(dest, body)
+	if err != nil {
+		// Likely network partition, try again after a pause.
+		time.Sleep(wait * time.Second)
+		SendWithRetry(n, dest, body, wait * 2, retries - 1)
+	}
+	return nil
+}
+
 func main() {
 	messages := make([]int, 0)
 	neighbors := make([]string, 0)
@@ -69,10 +84,7 @@ func main() {
 
 			// Broadcast message to neighbors.
 			for i := range neighbors {
-				err := n.Send(neighbors[i], body)
-				if err != nil {
-					log.Println(err.Error())
-				}
+				go SendWithRetry(n, neighbors[i], body, 1, 6)
 			}
 		}
 
